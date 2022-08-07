@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.searchBar-wrap {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1rem;
+}
+.searchBar-icon {
+  color:1px solid rgba(0,0,0,.26);
+  margin-right: 2rem;
+
+}
+
+.searchBar-wrap input {
+  font-size: 1.5rem;
+  /* border: none;
+  outline: none; */
+  width: 30%;
+}
+
+.searchBar-wrap input::placeholder {
+  color: 1px solid rgba(0,0,0,.26);
+}
